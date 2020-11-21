@@ -67,7 +67,6 @@ html {
 
 .banner{
 	height: 517px;
-	text-align: justify;
 	background: -webkit-linear-gradient(#007bff,#00ffa1);
 }
 
@@ -75,10 +74,13 @@ html {
 	margin-top: 20%;
 	margin-bottom: 5%;
 	color: white;
+	font-size: 35px;
 }
 
 .banner p{
-	color: #e9f6f9;
+	color: #e9f6f9;	
+	text-align: justify;
+	font-size: 20px;
 }
 
 .search-banner{
