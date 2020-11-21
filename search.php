@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Local Learning</title>
+	<title>LinkInLocal</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
@@ -54,7 +54,7 @@
 		<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-			<h1><strong>Local Learning</strong></h1>
+			<h1><strong>Link In Local</strong></h1>
 			<form  id='search' name="search" action="search_user.php" method="get">
 				<input type="text" name="location" autocomplete="off" placeholder="Enter Area" class="col-md-5 col-sm-12" required />
 				<br/><br/>
