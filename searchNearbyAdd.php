@@ -40,9 +40,9 @@
     
     require "vendor/autoload.php"; 
     $geocoder = new \OpenCage\Geocoder\Geocoder('a7ef5fd194eb48c2afcb2a80ba214ed2');
-    $result = $geocoder->geocode('16th Avenue ,Gaur City 2,Greater Noida West,India ');
+    $result = $geocoder->geocode('Palam New Delhi  ');
   // print_r($result); 
-       print_r($result[results][0][bounds][northeast][lat]);
+    print_r($result[results][0][bounds][northeast][lat]);
     print_r("\n");
     print_r($result[results][0][bounds][northeast][lng]);
 
