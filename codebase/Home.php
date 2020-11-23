@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title>LinkInLocal</title>
@@ -28,7 +28,7 @@
         </div>
     </div>
 	</nav>
-</header>
+</header> -->
 	<div class="banner">
 		<div class="container">
 		<div class="row">
@@ -43,9 +43,9 @@
 		</div>
 	</div>
 
-<footer class="bg-dark py-2 text-light">
+<!-- <footer class="bg-dark py-2 text-light">
 	<small><center>© All Rights Reserved</center></small>
 </footer>
 
 </body>
-</html>
+</html> -->
