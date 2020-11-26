@@ -40,10 +40,9 @@
     
     require "vendor/autoload.php"; 
     $geocoder = new \OpenCage\Geocoder\Geocoder('a7ef5fd194eb48c2afcb2a80ba214ed2');
-    $result = $geocoder->geocode('Palam New Delhi  ');
-  // print_r($result); 
+    $result = $geocoder->geocode('Palam ,New Delhi ,India');
+    print_r($result); 
     print_r($result[results][0][bounds][northeast][lat]);
-    print_r("\n");
     print_r($result[results][0][bounds][northeast][lng]);
 
 
@@ -53,7 +52,7 @@
     $result = $geocoder->geocode('6 Rue Massillon, 30020 Nîmes', ['language' => 'fr', 'countrycode' => 'fr']);
     if ($result && $result['total_results'] > 0) {
     $first = $result['results'][0];
-    // print $first['geometry']['lng'] . ';' . $first['geometry']['lat'] . ';' . $first['formatted'] . "\n";
+    print $first['geometry']['lng'] . ';' . $first['geometry']['lat'] . ';' . $first['formatted'] . "\n";
     # 4.360081;43.8316276;6 Rue Massillon, 30020 Nîmes, Frankreich
     } 
 

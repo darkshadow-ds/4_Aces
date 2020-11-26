@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 	<title>LinkInLocal</title>
@@ -9,7 +9,7 @@
     <script src="JQuery/jQuery3.5.1.js"></script>
     <script src="Bootstrap/js/bootstrap.js"></script>
     <script src="fontawesome/js/all.js"></script>
-</head>
+</head>  -->
 
 <?php 
 	session_start();
@@ -19,9 +19,10 @@
 	$(function(){
 		window.scrollTo(0,500);
 	});
-</script>
+</script>  
 
-<body>
+
+<!-- <body>
 	<header>
 	<nav class="navbar navbar-light navbar-expand-lg bg-danger" style="padding: 0;">
     <div class="container-fluid">
@@ -49,7 +50,7 @@
         </div>
     </div>
 	</nav>
-</header>
+</header> -->
 	<div class="search-banner">
 		<div class="container">
 		<div class="row">
@@ -123,8 +124,8 @@
 	unset($_SESSION['search_id']);
 	?>
 	
-<footer class="bg-dark py-2 text-light">
+<!-- <footer class="bg-dark py-2 text-light">
 	<small><center>© All Rights Reserved</center></small>
 </footer>
 </body>
-</html>
+</html> -->	
