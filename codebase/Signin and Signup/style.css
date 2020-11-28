@@ -10,14 +10,7 @@ body,
 input {
   font-family: "Poppins", sans-serif;
 }
-.cotainer2 {
-   position: relative;
-  width: 100%;
-  background-color: #fff;
-  min-height: 100vh;
-  overflow: hidden;
 
-}
 .container {
   position: relative;
   width: 100%;
