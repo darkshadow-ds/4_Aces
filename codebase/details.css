@@ -101,6 +101,10 @@ form {
   font-weight: 500;
 }
 
+#org input::placeholder{
+  margin-left: 5px;
+}
+
 .file:focus {
   transform: translateY(14px);
   
@@ -283,7 +287,7 @@ form {
   }
 
   .container:before {
-    bottom: 72%;
+    bottom: 72%; /*72%*/
     left: 50%;
   }
 
